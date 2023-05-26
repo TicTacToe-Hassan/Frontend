@@ -1,0 +1,354 @@
+.home-body{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: #eaeaea;
+
+}
+
+.button-81-pushable {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 10px;
+  }
+  
+  .button-81-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition:
+      transform
+      600ms
+      cubic-bezier(.3, .7, .4, 1);
+  }
+  
+  .button-81-edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+      to left,
+      hsl(320deg 100% 11%) 0%,
+      hsl(340deg 100% 18%) 8%,
+      hsl(340deg 100% 32%) 92%,
+      hsl(340deg 100% 16%) 100%
+
+      /* hsl(345deg 100% 47%) */
+    );
+  }
+  
+  .button-81-front {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background:  hsl(345deg 100% 47%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition:
+      transform
+      600ms
+      cubic-bezier(.3, .7, .4, 1);
+      
+  }
+
+
+  @media (min-width: 768px) {
+    .button-81-front {
+      font-size: 1.25rem;
+      padding: 12px 42px;
+    }
+  }
+  
+  .button-81-pushable:hover {
+    filter: brightness(110%);
+    -webkit-filter: brightness(110%);
+  }
+  
+  .button-81-pushable:hover .button-81-front {
+    transform: translateY(-6px);
+    transition:
+      transform
+      250ms
+      cubic-bezier(.3, .7, .4, 1.5);
+  }
+  
+  .button-81-pushable:active .button-81-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+  }
+  
+  .button-81-pushable:hover .button-81-shadow {
+    transform: translateY(4px);
+    transition:
+      transform
+      250ms
+      cubic-bezier(.3, .7, .4, 1.5);
+  }
+  
+  .button-81-pushable:active .button-81-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+  }
+  
+  .button-81-pushable:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+
+    .button-82-pushable {
+      position: relative;
+      border: none;
+      background: transparent;
+      padding: 0;
+      cursor: pointer;
+      outline-offset: 4px;
+      transition: filter 250ms;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      margin: 10px;
+    }
+    
+    .button-82-shadow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 12px;
+      background: hsl(0deg 0% 0% / 0.25);
+      will-change: transform;
+      transform: translateY(2px);
+      transition:
+        transform
+        600ms
+        cubic-bezier(.3, .7, .4, 1);
+    }
+    
+    .button-82-edge {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 12px;
+      background: linear-gradient(
+        to left,
+        hsl(61 100% 24%) 0%,
+        hsl(61, 100%, 48%) 8%,
+        hsl(340deg 100% 32%) 92%,
+        hsl(340deg 100% 16%) 100%
+        /* hsl(63, 100%, 67%); */
+      );
+    }
+    
+    .button-82-front {
+      display: block;
+      position: relative;
+      padding: 12px 27px;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      color: white;
+      background:hsl(49, 100%, 41%);
+      will-change: transform;
+      transform: translateY(-4px);
+      transition:
+        transform
+        600ms
+        cubic-bezier(.3, .7, .4, 1);
+        
+    }
+
+
+    @media (min-width: 768px) {
+      .button-82-front {
+        font-size: 1.25rem;
+        padding: 12px 42px;
+      }
+    }
+    
+    .button-82-pushable:hover {
+      filter: brightness(110%);
+      -webkit-filter: brightness(110%);
+    }
+    
+    .button-82-pushable:hover .button-82-front {
+      transform: translateY(-6px);
+      transition:
+        transform
+        250ms
+        cubic-bezier(.3, .7, .4, 1.5);
+    }
+    
+    .button-82-pushable:active .button-82-front {
+      transform: translateY(-2px);
+      transition: transform 34ms;
+    }
+    
+    .button-82-pushable:hover .button-82-shadow {
+      transform: translateY(4px);
+      transition:
+        transform
+        250ms
+        cubic-bezier(.3, .7, .4, 1.5);
+    }
+    
+    .button-82-pushable:active .button-82-shadow {
+      transform: translateY(1px);
+      transition: transform 34ms;
+    }
+    
+    .button-82-pushable:focus:not(:focus-visible) {
+      outline: none;
+    }
+
+    .button-83-pushable {
+        position: relative;
+        border: none;
+        background: transparent;
+        padding: 0;
+        cursor: pointer;
+        outline-offset: 4px;
+        transition: filter 250ms;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        margin: 10px;
+      }
+      
+      .button-83-shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        background: hsl(0deg 0% 0% / 0.25);
+        will-change: transform;
+        transform: translateY(2px);
+        transition:
+          transform
+          600ms
+          cubic-bezier(.3, .7, .4, 1);
+      }
+      
+      .button-83-edge {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        background: linear-gradient(
+          to left,
+          hsl(120 57% 20%) 0%,
+          hsl(120 57% 35%) 8%,
+          hsl(340deg 100% 32%) 92%,
+          hsl(340deg 100% 16%) 100%
+          
+          
+        
+          /* hsl(127, 57%, 61%) */
+          
+          
+          
+          
+
+        );
+      }
+      
+      .button-83-front {
+        display: block;
+        position: relative;
+        padding: 12px 27px;
+        border-radius: 12px;
+        font-size: 1.1rem;
+        color: white;
+        background:hsl(127, 57%, 50%);
+        will-change: transform;
+        transform: translateY(-4px);
+        transition:
+          transform
+          600ms
+          cubic-bezier(.3, .7, .4, 1);
+          
+      }
+  
+  
+      @media (min-width: 768px) {
+        .button-83-front {
+          font-size: 1.25rem;
+          padding: 12px 42px;
+        }
+      }
+      
+      .button-83-pushable:hover {
+        filter: brightness(110%);
+        -webkit-filter: brightness(110%);
+      }
+      
+      .button-83-pushable:hover .button-83-front {
+        transform: translateY(-6px);
+        transition:
+          transform
+          250ms
+          cubic-bezier(.3, .7, .4, 1.5);
+      }
+      
+      .button-83-pushable:active .button-83-front {
+        transform: translateY(-2px);
+        transition: transform 34ms;
+      }
+      
+      .button-83-pushable:hover .button-83-shadow {
+        transform: translateY(4px);
+        transition:
+          transform
+          250ms
+          cubic-bezier(.3, .7, .4, 1.5);
+      }
+      
+      .button-83-pushable:active .button-83-shadow {
+        transform: translateY(1px);
+        transition: transform 34ms;
+      }
+      
+      .button-83-pushable:focus:not(:focus-visible) {
+        outline: none;
+      }
+
+.btn-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+   
+
+}

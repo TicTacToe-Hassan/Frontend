@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+.register{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #000 ;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'Atma', cursive;
+    background-color: #dcdcdc;
+    height: 400px;
+   
+    
+    
+}
+.input-name-register, .input-register-password{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.register-bttn
+{
+    
+        width: fit-content;
+        height: 30px;
+        margin: 10px;
+        background-color:
+        #9DB4C0;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        
+
+    }
+    
+    .register-bttn:hover {
+        background-color:#3498db;
+        box-shadow: 0px 15px 20px -5px rgba(74, 25, 66, 0.75);
+        color: #fff;
+        transform: translateY(-4px);
+    }
+    .register-username,.register-password{
+         border-radius: 5px;
+         margin-bottom: 5px;
+         padding: 5px;
+    }
+    .container{
+        height: 100vh;
+    }
